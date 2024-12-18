@@ -15,7 +15,9 @@ let prixTotal = 0;
 
 let i = 0;
 
-let isPanierValide;
+let isPanierValide = true;
+
+let articleReference = "";
 
 //recuperation du panier dans le localStorage
 let panier = JSON.parse(localStorage.getItem("panier")) || null;
@@ -66,8 +68,9 @@ btnValiderPanier.addEventListener('click', () => {
             //verification de la validité des articles
             panier.forEach(article => {
                 //recupere l'article dans la base de donnée
-                const articleReference = data.find(({ id }) => id === parseInt(article.id));
-
+                articleReference = data.find(({ id }) => id === parseInt(article.id));
+                console.log(article.nom);
+                
                 //verifie si l'article existe
                 if (!articleReference) {
                     isPanierValide = false;
@@ -75,10 +78,9 @@ btnValiderPanier.addEventListener('click', () => {
                 } else {
                     //si l'article existe, on verifie si ses valeurs sont correct
                     if (article.img === articleReference.image && article.nom === articleReference.nom && parseFloat(article.prix) === parseFloat(articleReference.prix)) {
-                        isPanierValide = true;
                     } else {
                         isPanierValide = false;
-                        return
+                        return   
                     }
                 }
             });
