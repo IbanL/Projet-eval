@@ -74,13 +74,11 @@ btnValiderPanier.addEventListener('click', () => {
                 //verifie si l'article existe
                 if (!articleReference) {
                     isPanierValide = false;
-                    return
                 } else {
                     //si l'article existe, on verifie si ses valeurs sont correct
                     if (article.img === articleReference.image && article.nom === articleReference.nom && parseFloat(article.prix) === parseFloat(articleReference.prix)) {
                     } else {
                         isPanierValide = false;
-                        return   
                     }
                 }
             });
