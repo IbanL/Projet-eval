@@ -10,28 +10,41 @@
 </head>
 
 <body>
+    <!-- debut header -->
     <header>
         <a class="headerLogo" href="./index.html">
             <img src="./assets/images/Egg.png" alt="logo egg">
         </a>
 
-        <a class="headerPanier" href="./template/panier.html">
+        <a aria-label="lien vers  la page panier" class="headerPanier" href="./template/panier.html">
             <img src="./assets//images/Bag-Outline.png" alt=" vers le panier">
         </a>
     </header>
+    <!-- fin header -->
     <main>
+        <!-- debut  hero -->
         <section class="hero">
             <h1 class="indexTitre">the best egging brand</h1>
         </section>
+        <!-- fin  hero -->
+
+        <!-- debut section article -->
         <section id="containerArticles" class="containerArticles">
+        
 
-
+        
         </section>
-        <div id="modal" class="modal">
-            <div class="textModal">article ajouter au panier</div>
+        <!-- fin section article -->
+
+        <!-- debut modal confirmation -->
+        <div aria-label="fenetre de confirmation d'ajout au panier" id="modal" class="modal">
+            <div class="textModal">article ajouté au panier</div>
             <div class="divImgModal"><img class="imgModal" src="./assets/images/check.png" alt=""></div>
         </div>
+        <!-- debut modal confirmation -->
     </main>
+
+    <!-- debut footer -->
     <footer>
         <div class="mentionsLegales">
             <a href="#">Mentions legales</a>
@@ -40,10 +53,12 @@
             <a href="#">Copyright</a>
         </div>
         <div class="insta">
-            <a href="#"><img src="./assets/images/insta.png" alt="logo instagram"></a>
+            <a aria-label="lien vers la page instagram" href="#"><img src="./assets/images/insta.png"
+                    alt="logo instagram"></a>
         </div>
     </footer>
-<script src="./assets/app.js"></script>
+    <!-- fin footer -->
+    <script src="./assets/app.js"></script>
 </body>
 
 </html>

@@ -2,20 +2,25 @@
 
     { "id": 1, "image":"tshirtBleu.png", "nom": "T-shirt bleu n°1", "description": "c'est un t-shirt bleu", "prix": 100 },
 
-    { "id": 2, "image":"tshirtBleu.png", "nom": "T-shirt bleu n°2", "description": "c'est un t-shirt bleu", "prix": 200 },
+    { "id": 2, "image":"chaussettes_egg.jpg", "nom": "chaussettes egg", "description": "un classique", "prix": 20 },
 
     { "id": 3, "image":"tshirtBleu.png", "nom": "T-shirt bleu n°3", "description": "c'est un t-shirt bleu", "prix": 300 },
 
-    { "id": 4, "image":"tshirtBleu.png", "nom": "T-shirt bleu n°4", "description": "c'est un t-shirt bleu aaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaaaaa aaaaaaaaaaaaaaaa aaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaa aaaaaaa aaaaaa aaaaaaaaaaaaaa aa aaaaaaaaaaaaaaaaaaaa aa", "prix": 400 },
+    { "id": 4, "image":"tshirtBleu.png", "nom": "T-shirt bleu n°4", "description": "c'est un t-shirt bleu Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "prix": 400 },
 
     { "id": 5, "image":"tshirtBleu.png", "nom": "T-shirt bleu n°5", "description": "c'est un t-shirt bleu", "prix": 500 },
 
     { "id": 6, "image":"tshirtBleu.png", "nom": "T-shirt bleu n°6", "description": "c'est un t-shirt bleu", "prix": 600 },
 
     { "id": 7, "image":"tshirtBleu.png", "nom": "T-shirt bleu n°7", "description": "c'est un t-shirt bleu", "prix": 600 },
+
     { "id": 8, "image":"tshirtBleu.png", "nom": "T-shirt bleu n°8", "description": "c'est un t-shirt bleu", "prix": 600 },
+
     { "id": 9, "image":"tshirtBleu.png", "nom": "T-shirt bleu n°9", "description": "c'est un t-shirt bleu", "prix": 600 },
+
     { "id": 10, "image":"tshirtBleu.png", "nom": "T-shirt bleu n°10", "description": "c'est un t-shirt bleu", "prix": 600 },
+
     { "id": 11, "image":"tshirtBleu.png", "nom": "T-shirt bleu n°11", "description": "c'est un t-shirt bleu", "prix": 600 },
+
     { "id": 12, "image":"tshirtBleu.png", "nom": "T-shirt bleu n°12", "description": "c'est un t-shirt bleu", "prix": 600 }
 ]

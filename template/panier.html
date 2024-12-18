@@ -11,8 +11,9 @@
 </head>
 
 <body>
+    <!-- debut header -->
     <header>
-        <a class="headerLogo" href="../index.html">
+        <a aria-label="lien retour à la page d'accueil" class="headerLogo" href="../index.html">
             <img src="../assets/images/Egg.png" alt="logo egg">
         </a>
 
@@ -20,17 +21,25 @@
             <img src="../assets/images/Bag-Outline.png" alt="lien vers le panier">
         </a>
     </header>
+    <!-- fin header -->
     <main>
+        <!-- message de confimation de la commande -->
         <p id="confirmPanier" class="confirmPanier"></p>
+        <!-- titre de la page -->
         <h1 class="panierTitre" id="panierTitre">Panier</h1>
+        <!-- section qui contien les articles -->
         <section class="containerPanier" id="containerPanier">
             
         </section>
+
+        <!-- affichage du prix total -->
         <h2 class="panierTotal">Total</h2>
         <h2 class="prixTotal" id="prixTotal"></h2>
-        <button class="btnValiderCommande" id="btnValiderCommande">Valider la commande</button>
+        <!-- bouton valider le panier -->
+        <button aria-label="bouton valider la commande" class="btnValiderCommande" id="btnValiderCommande">Valider la commande</button>
     </main>
 
+    <!-- debut footer -->
     <footer>
         <div class="mentionsLegales">
             <a href="#">Mentions legales</a>
@@ -42,6 +51,7 @@
             <a href="#"><img src="../assets/images/insta.png" alt="logo instagram"></a>
         </div>
     </footer>
+    <!-- fin footer -->
     <script src="../assets/panier.js"></script>
 </body>
 
